@@ -10,7 +10,7 @@ pipeline {
       stage('Test') {
         steps {
           sh './a.out'
-          echo "Yay Successful!"
+          eco "Yay Successful!"
         }
       }
       stage('Deploy') {
